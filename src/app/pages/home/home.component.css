@@ -11,13 +11,13 @@
 
 .carousel-content{
     position: absolute;
-    top: 100px;
+    bottom: 80%;
 }
 
 .carousel-content-2{
     width: 60%;
     position: absolute;
-    top: 160px;
+    bottom: 40%;
 }
 
 .force-right.carousel-content-2{
