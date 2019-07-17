@@ -2,6 +2,11 @@
   line-height: 1;
   position: relative;
   top: -20px;
+  transition: 200ms;
+}
+
+.brand-logo:hover{
+  
 }
 
 .nav-lang, .nav-lang nav {
@@ -26,3 +31,8 @@ li.active a, nav ul a:hover, a.active {
 nav ul a{
   transition: 200ms;
 }
+
+.navbar-fixed:not(.nav-lang){
+  top: -2px;
+}
+

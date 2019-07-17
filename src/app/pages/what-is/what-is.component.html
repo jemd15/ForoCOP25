@@ -3,8 +3,8 @@
     <nav class="transparent z-depth-0">
       <div class="nav-wrapper">
         <div class="col s12">
-          <a class="breadcrumb blue-text text-darken-4">{{ 'navbar.home' | translate }}</a>
-          <a class="breadcrumb blue-text text-darken-4">{{ 'navbar.whatIs' | translate }}</a>
+          <a class="breadcrumb blue-text text-darken-4"><strong>{{ 'navbar.home' | translate }}</strong></a>
+          <a class="breadcrumb blue-text text-darken-4"><strong>{{ 'navbar.whatIs' | translate }}</strong></a>
         </div>
       </div>
     </nav>
@@ -14,7 +14,7 @@
       </div>
       <div class="card-stacked">
         <div class="card-content primary-color">
-          <p class="white-text">{{ 'whatIs.cardParagraph' | translate }}</p>
+          <p class="white-text" [innerHTML]="'whatIs.cardParagraph' | translate"></p>
         </div>
         <div class="card-action primary-color">
           <a routerLink="/accreditation" class="white-text">{{'navbar.login' | translate}}</a>
@@ -24,16 +24,16 @@
     <div class="row">
       <h5 class="blue-text text-darken-4"><strong>{{'whatIs.title1' | translate}}</strong></h5>
       <img src="http://ximg.es/600x400/f1f1f1/000000" class="col m4 right">
-      <p>{{'whatIs.paragraph1' | translate}}</p>
+      <p [innerHTML]="'whatIs.paragraph1' | translate"></p>
     </div>
     <div class="row">
       <h5 class="blue-text text-darken-4"><strong>{{'whatIs.title2' | translate}}</strong></h5>
       <img src="http://ximg.es/600x400/f1f1f1/000000" class="col m4 right">
-      <p>{{'whatIs.paragraph2' | translate}}</p>
-      <p>{{'whatIs.paragraph3' | translate}}</p>
-      <p>{{'whatIs.paragraph4' | translate}}</p>
-      <p>{{'whatIs.paragraph5' | translate}}</p>
-      <p>{{'whatIs.paragraph6' | translate}}</p>
+      <p [innerHTML]="'whatIs.paragraph2' | translate"></p>
+      <p [innerHTML]="'whatIs.paragraph3' | translate"></p>
+      <p [innerHTML]="'whatIs.paragraph4' | translate"></p>
+      <p [innerHTML]="'whatIs.paragraph5' | translate"></p>
+      <p [innerHTML]="'whatIs.paragraph6' | translate"></p>
     </div>
   </div>
 </div>

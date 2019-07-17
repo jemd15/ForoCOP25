@@ -3,6 +3,10 @@
   font-family: 'Poppins', Roboto;
 }
 
+strong{
+  font-weight: bold;
+}
+
 .primary-color {
   background: #0e4592;
   background: linear-gradient(.7turn, #2469c7, #0e4592);

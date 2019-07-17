@@ -6,12 +6,19 @@ i.fab, i.far {
   transition: 200ms;
 }
 
-i.fab:nth-child(2) {
-  margin-left: 10px;
-  margin-right: 5px;
+div.center a:nth-child(2) i.fab {
+  margin-left: 15px;
+  margin-right: 10px;
 }
 
-i.fab:nth-child(3) {
-  margin-left: 5px;
-  margin-right: 10px;
+div.center a:nth-child(3) i.fab {
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+.card-image img{
+  width: 100%;
+  height: 35vh;
+  object-fit: cover;
+  object-position: bottom;
 }

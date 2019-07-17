@@ -2,6 +2,10 @@ img .col {
   margin: 0.75rem !important;
 }
 
+img, .card{
+  border-radius: 10px !important;
+}
+
 /* galeria tipo pinterest */
 
 .masonry {/* Masonry container */
