@@ -1,22 +1,55 @@
 {
-    "navbar": {
-        "home": "Home",
-        "whatIs": "What is this Foro?",
-        "login": "Accreditation",
-        "actionPlan": "Action Plan",
-        "galery": "Galery",
-        "contact": "Contact",
-        "language": "Language"
+  "navbar": {
+    "home": "Home",
+    "whatIs": "What is the Forum?",
+    "login": "Accreditation",
+    "actionPlan": "Plan of Action",
+    "galery": "Gallery",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "more": "more",
+  "home": {
+    "news": "News",
+    "carousel": {
+      "item1": "1 lorem ipsum dolore et.",
+      "text1": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque ratione eveniet nostrum similique omnis perferendis assumenda earum, illo optio quidem animi suscipit iure magnam accusantium soluta voluptatem blanditiis tenetur distinctio.",
+      "item2": "2 lorem ipsum dolore et.",
+      "text2": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque ratione eveniet nostrum similique omnis perferendis assumenda earum, illo optio quidem animi suscipit iure magnam accusantium soluta voluptatem blanditiis tenetur distinctio.",
+      "item3": "3 lorem ipsum dolore et.",
+      "text3": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque ratione eveniet nostrum similique omnis perferendis assumenda earum, illo optio quidem animi suscipit iure magnam accusantium soluta voluptatem blanditiis tenetur distinctio.",
+      "item4": "4 lorem ipsum dolore et.",
+      "text4": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque ratione eveniet nostrum similique omnis perferendis assumenda earum, illo optio quidem animi suscipit iure magnam accusantium soluta voluptatem blanditiis tenetur distinctio.",
+      "button": "Know more"
     },
-    "more": "more",
-    "home": {
-        "news": "News",
-        "carousel": {
-            "item1": "1 lorem ipsum dolore et.",
-            "item2": "2 lorem ipsum dolore et.",
-            "item3": "3 lorem ipsum dolore et.",
-            "item4": "4 lorem ipsum dolore et.",
-            "button": "Know more"
-        }
+    "activities": "Activities"
+  },
+  "whatIs": {
+    "cardParagraph": "The <strong>Civil Society Forum Cop 25 </strong> is a self-convoked and broadly-driven, democratic and cross-cutting initiative by different sectors of civil society, in response to the appeal made by the Secretary General of the UN so that all the peoples of the world and their governments organize and coordinate efforts to increase ambition and urgency in climate action.",
+    "title1": "Objective",
+    "paragraph1": "Achieve the implementation of a <strong>permanent and high-level instance for the participation of civil society </strong> in the context of the United Nations Framework Convention on Climate Change, as it happens in other multilateral spaces of the UN, from where contribute to the solutions and contribute in an incident way to the decisions that are adopted.",
+    "title2": "Why a Forum?",
+    "paragraph2": "It arises in response to the appeal made by the UN Secretary General for all the peoples of the world and their governments to organize and coordinate efforts to increase ambition and urgency in the action for climate, considering during its development the elaboration of a <strong>Plan of Action </strong> from the social world to face these challenges.",
+    "paragraph3": "In the Paris Agreement (COP 21, Paris, 2015) the Parliaments / Governments of 180 countries committed themselves to implementing public policies and mitigation and adaptation norms at the national and sub-national levels of their territories. In order to advance in decarbonising the global atmosphere and thus contain, by the year 2050, temperature increases of over 1.5º C. In its preamble, the Agreement establishes that these policies must have a human rights approach and identifies some of the the most vulnerable populations.",
+    "paragraph4": "They also commit themselves to protect the quality of life and wellbeing of the human, plant and animal species, and maintain the biodiversity of the Earth, recognize the right to climate justice, including diagnosing the climatic damage achieved and its determinants , report it and access the necessary repairs and compensations, in addition to promoting the reunion of humans with nature and the recovery and recognition of ancestral knowledge for the construction of the future.",
+    "paragraph5": "These appeals and calls from the international and sectoral bodies of the UN, as well as those of its officials, generate universal political, economic and cultural responsibilities that can not be ignored or ignored.",
+    "paragraph6": "Aware that it is everybody's job to avoid an increase in the temperature of the planet, we have committed ourselves to the organization of the <strong>Civil Society Forum Cop 25 </strong>, and to the adoption of a <strong>Climate Action Plan </strong> and the <strong>Declaration Building the Future We Need </strong> to address these challenges."
+  },
+  "accreditation": {
+    "title1": "Who can participate?",
+    "paragraph1": "All social organizations of the elderly, young people, gender, human rights, diversities of all types, indigenous peoples, migrants, religious spirituality, trade unions, etc., as well as environmental organizations, are summoned to this instance. universities, small and medium-sized companies from all sectors, media, local governments, among other sectors.",
+    "title2": "How to participate?",
+    "paragraph2": "Delegates from organizations and institutions can be accredited on the platform of the <strong>Civil Society Forum Cop 25 </strong> (<a routerLink='/accreditation'> Click Here </a>) will be held between December 01 and December 10, 2019, with the firm purpose of deliberating organized and democratically during those days and approving the Climate Action Plan of the Chilean Civil Society and the Declaration “Building the Future We Need”."
+  },
+  "galery": {
+    "title": "Gallery"
+  },
+  "contact": {
+    "title": "Contact us",
+    "rrss": {
+      "title": "Social Networks",
+      "text": "Stay up-to-date with the updates of the <strong>Cop 25 Civil Society Forum </strong> through your preferred social networks, you can follow us on several channels to be the first to know about our news."
     }
+  },
+  "page404": "Sorry, the requested page does not exist !!"
 }

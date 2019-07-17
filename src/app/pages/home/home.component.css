@@ -11,5 +11,19 @@
 
 .carousel-content{
     position: absolute;
-    top: 200px;
+    top: 100px;
+}
+
+.carousel-content-2{
+    width: 60%;
+    position: absolute;
+    top: 160px;
+}
+
+.force-right.carousel-content-2{
+    text-align: right;
+}
+
+.force-left.carousel-content-2{
+    text-align: left;
 }
