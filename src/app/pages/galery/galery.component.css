@@ -1,0 +1,36 @@
+img .col {
+  margin: 0.75rem !important;
+}
+
+/* galeria tipo pinterest */
+
+.masonry {/* Masonry container */
+  column-count: 4;
+  column-gap: 1em;
+}
+
+.item {/* Masonry bricks or child elements */
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+}
+
+/* fin galeria tipo pinterest */
+
+.modal{
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+
+.modal img{
+  width: auto;
+  height: 80vh;
+  cursor: zoom-out;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.card-image img{
+  cursor: zoom-in;
+}

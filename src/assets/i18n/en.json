@@ -1,0 +1,22 @@
+{
+    "navbar": {
+        "home": "Home",
+        "whatIs": "What is this Foro?",
+        "login": "Accreditation",
+        "actionPlan": "Action Plan",
+        "galery": "Galery",
+        "contact": "Contact",
+        "language": "Language"
+    },
+    "more": "more",
+    "home": {
+        "news": "News",
+        "carousel": {
+            "item1": "1 lorem ipsum dolore et.",
+            "item2": "2 lorem ipsum dolore et.",
+            "item3": "3 lorem ipsum dolore et.",
+            "item4": "4 lorem ipsum dolore et.",
+            "button": "Know more"
+        }
+    }
+}

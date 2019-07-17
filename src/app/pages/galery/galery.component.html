@@ -1,0 +1,123 @@
+<div class="container">
+  <div class="card-panel white">
+    <nav class="transparent z-depth-0">
+      <div class="nav-wrapper">
+        <div class="col s12">
+          <a class="breadcrumb blue-text text-darken-4">{{ 'navbar.home' | translate }}</a>
+          <a class="breadcrumb blue-text text-darken-4">{{ 'navbar.galery' | translate }}</a>
+        </div>
+      </div>
+    </nav>
+    <h4 class="blue-text text-darken-4 col s12">{{'galery.title' | translate}}</h4>
+    <div class="masonry">
+      <div class="item">
+        <div class="card">
+          <div class="card-image">
+            <img (click)="openModal('../../../assets/imgs/climate-cold-glacier-2969.jpg')"
+              src="../../../assets/imgs/climate-cold-glacier-2969.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card-image">
+            <img (click)="openModal('../../../assets/imgs/air-pollution-climate-change-dawn-221012.jpg')"
+              src="../../../assets/imgs/air-pollution-climate-change-dawn-221012.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card-image">
+            <img (click)="openModal('../../../assets/imgs/animal-blur-canidae-2408251.jpg')"
+              src="../../../assets/imgs/animal-blur-canidae-2408251.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card-image">
+            <img
+              (click)="openModal('https://cumbrepuebloscop20.org/wp-content/uploads/2017/10/cambio-clim%C3%A1tico-4.jpg')"
+              src="https://cumbrepuebloscop20.org/wp-content/uploads/2017/10/cambio-clim%C3%A1tico-4.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card-image">
+            <img
+              (click)="openModal('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVwW-2mM-q7--KPsPDeViYlsnF06RkJAlvyGMnWsPs007BmjnR')"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVwW-2mM-q7--KPsPDeViYlsnF06RkJAlvyGMnWsPs007BmjnR">
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card-image">
+            <img
+              (click)="openModal('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPhYu6jZKpMDBsVmiXs0lIS5S5d0hrfIHnc9-qviKkT52-QiFV')"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPhYu6jZKpMDBsVmiXs0lIS5S5d0hrfIHnc9-qviKkT52-QiFV">
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card-image">
+            <img (click)="openModal('../../../assets/imgs/climate-cold-glacier-2969.jpg')"
+              src="../../../assets/imgs/climate-cold-glacier-2969.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card-image">
+            <img (click)="openModal('../../../assets/imgs/air-pollution-climate-change-dawn-221012.jpg')"
+              src="../../../assets/imgs/air-pollution-climate-change-dawn-221012.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card-image">
+            <img (click)="openModal('../../../assets/imgs/animal-blur-canidae-2408251.jpg')"
+              src="../../../assets/imgs/animal-blur-canidae-2408251.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card-image">
+            <img
+              (click)="openModal('https://cumbrepuebloscop20.org/wp-content/uploads/2017/10/cambio-clim%C3%A1tico-4.jpg')"
+              src="https://cumbrepuebloscop20.org/wp-content/uploads/2017/10/cambio-clim%C3%A1tico-4.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card-image">
+            <img
+              (click)="openModal('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVwW-2mM-q7--KPsPDeViYlsnF06RkJAlvyGMnWsPs007BmjnR')"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVwW-2mM-q7--KPsPDeViYlsnF06RkJAlvyGMnWsPs007BmjnR">
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+          <div class="card-image">
+            <img
+              (click)="openModal('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPhYu6jZKpMDBsVmiXs0lIS5S5d0hrfIHnc9-qviKkT52-QiFV')"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPhYu6jZKpMDBsVmiXs0lIS5S5d0hrfIHnc9-qviKkT52-QiFV">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Structure -->
+<div (click)="closeModal()" class="modal center transparent z-depth-0" materialize="modal"
+  [materializeParams]="[{dismissible: true}]" [materializeActions]="modalActions">
+  <img [src]="img" class="responsive-img z-depth-1">
+</div>

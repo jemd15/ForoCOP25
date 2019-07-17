@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  font-family: 'Poppins', Roboto;
+}
+
+.primary-color {
+  background: #0e4592;
+  background: linear-gradient(.7turn, #2469c7, #0e4592);
+}
+
+.container{
+  width: 80%;
+}
+
+li.active a {
+  color: #40c4ff !important;
+}
+
+a:hover{
+  color: #40c4ff !important;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.no-padding-sides {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.force-left {
+  left: 15px;
+}
+
+.force-right {
+  right: 15px;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 4px #000;
+}
+
+.breadcrumb:before {
+  color: #0D47A1 !important;
+}
+  
+#materialbox-overlay {
+    background-color: rgba(0,0,0,0.6);
+}

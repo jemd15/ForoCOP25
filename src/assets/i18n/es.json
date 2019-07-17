@@ -1,0 +1,50 @@
+{
+    "navbar": {
+        "home": "Inicio",
+        "whatIs": "¿Qué es el Foro?",
+        "login": "Acreditación",
+        "actionPlan": "Plan de Acción",
+        "galery": "Galería",
+        "contact": "Contacto",
+        "language": "Idioma"
+    },
+    "more": "más",
+    "home": {
+        "news": "Noticias",
+        "carousel": {
+            "item1": "1 lorem ipsum dolore et.",
+            "item2": "2 lorem ipsum dolore et.",
+            "item3": "3 lorem ipsum dolore et.",
+            "item4": "4 lorem ipsum dolore et.",
+            "button": "Conóce más"
+        },
+        "activities": "Actividades"
+    },
+    "whatIs": {
+        "cardParagraph": "El Foro de la Sociedad Civil COP 25 es una iniciativa autoconvocada e impulsada de manera amplia, democrática y transversal por diferentes sectores de la sociedad civil, en respuesta al llamamiento formulado por el Secretario General de la ONU para que todos los pueblos del mundo y sus gobiernos se organicen y coordinen esfuerzos para aumentar la ambición y urgencia en la acción por el clima.",
+        "title1": "Objetivo",
+        "paragraph1": "Lograr implementar una instancia permanente y de alto nivel para la participación de la sociedad civil en el contexto de la Convención Marco de Cambio Climático de las Naciones Unidas, como ocurre en otros espacios multilaterales de la ONU, desde donde contribuir a las soluciones y aportar de forma incidente a las decisiones que se adoptan.",
+        "title2": "¿Por qué un Foro?",
+        "paragraph2": "Surge en respuesta al llamamiento formulado por el Secretario General de la ONU para que todos los pueblos del mundo y sus gobiernos se organicen y coordinen esfuerzos para aumentar la ambición y urgencia en la acción por el clima, considerando durante su desarrollo la elaboración de un Plan de Acción  desde el mundo social para hacer frente a estos desafíos.",
+        "paragraph3": "En el Acuerdo de Paris (COP 21, París, 2015) los Parlamentos/Gobiernos de 180 países se comprometieron a implementar en el nivel nacional y sub-nacional de sus territorios políticas públicas y normas de mitigación y adaptación, a fin avanzar en descarbonizar la atmosfera global y de este modo contener, al año 2050, los incrementos de temperatura por sobre 1.5º Celsius. En su preámbulo, el Acuerdo establece que dichas políticas deben contar con un enfoque de derechos humanos e identifica a algunas de las poblaciones más vulnerables.",
+        "paragraph4": "Se comprometen también a proteger la calidad de vida y bienestar de las especies humana, vegetales y animales, y mantener la biodiversidad de la Tierra; reconocer el derecho a la justica climática, incluido diagnosticar el daño climático alcanzado y sus determinantes, reportarlo y acceder a las reparaciones y compensaciones necesarias, además de promover el reencuentro de los humanos con la Naturaleza y la recuperación y reconocimiento de los saberes ancestrales para la construcción del Futuro.",
+        "paragraph5": "Estos llamamientos y convocatorias de los órganos internacionales y sectoriales de la ONU, así como los de sus funcionarios, generan responsabilidades políticas, económicas y culturales universales que no se pueden eludir ni ignorar. ",
+        "paragraph6": "Conscientes de que es tarea de todos evitar un aumento de la temperatura del planeta, nos hemos comprometido a la organización del Foro de la Sociedad Civil COP 25, y a la adopción de un Plan de Acción Climática y la Declaración Construyendo el Futuro que Necesitamos para hacer frente a estos desafíos. "
+    },
+    "accreditation": {
+        "title1": "¿Quiénes pueden participar?",
+        "paragraph1":"A esta instancia son convocadas todas las organizaciones sociales de adultos mayores, jóvenes, de género, derechos humanos, diversidades de todos los tipos, pueblos originarios, migrantes, espiritualidad religiosa, sindicatos, etc., además de entidades ambientalistas, universidades, pequeñas y medianas empresas de todos los sectores, medios de comunicación, gobiernos locales, entre otros sectores.",
+        "title2": "¿Cómo participar?",
+        "paragraph2":"Los delegados de las organizaciones e instituciones podrán acreditarse en la plataforma del Foro Sociedad Civil Cop25 (poner link) que se celebrará entre el 01 y el 10 de diciembre de 2019, con el firme propósito de deliberar organizada y democráticamente durante esos días y aprobar el Plan de Acción Climática de la Sociedad Civil Chilena y la Declaración “Construyendo el Futuro que Necesitamos”."
+    },
+    "galery":{
+        "title": "Galería"
+    },
+    "contact":{
+        "title": "Contacte con nosotros",
+        "rrss":{
+            "title": "Redes Sociales",
+            "text": "Manténgase al día de las actualizaciones del Foro de la Sociedad Civil COP 25 a través de sus redes sociales preferidas. Puede seguirnos en varios canales para ser el primero en conocer nuestras novedades."
+        }
+    }
+}

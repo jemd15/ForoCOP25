@@ -1,0 +1,27 @@
+<div class="primary-color">
+  <div class="navbar-fixed nav-lang">
+    <nav class="primary-color">
+      <div class="nav-wrapper container">
+        <ul class="right hide-on-med-and-down">
+          <li><a [ngClass]="{'active': activeLang == 'es'}" (click)="changeLanguage('es')">Español</a></li>
+          <li><a [ngClass]="{'active': activeLang == 'en'}" (click)="changeLanguage('en')">English</a></li>
+          <li><a [ngClass]="{'active': activeLang == 'fr'}" (click)="changeLanguage('fr')">Français</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="navbar-fixed">
+    <nav class="primary-color">
+      <div class="nav-wrapper container">
+        <a class="brand-logo">FORO DE LA SOCIEDAD <br> CIVIL COP25</a>
+        <ul class="right hide-on-med-and-down">
+          <li routerLinkActive="active"><a routerLink="/home">{{ 'navbar.home' | translate }}</a></li>
+          <li routerLinkActive="active"><a routerLink="/whatIs">{{ 'navbar.whatIs' | translate }}</a></li>
+          <li routerLinkActive="active"><a routerLink="/accreditation">{{ 'navbar.login' | translate }}</a></li>
+          <li routerLinkActive="active"><a routerLink="/galery">{{ 'navbar.galery' | translate }}</a></li>
+          <li routerLinkActive="active"><a routerLink="/contact">{{ 'navbar.contact' | translate }}</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>

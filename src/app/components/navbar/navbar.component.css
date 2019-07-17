@@ -1,0 +1,28 @@
+.brand-logo {
+  line-height: 1;
+  position: relative;
+  top: -20px;
+}
+
+.nav-lang, .nav-lang nav {
+  height: 40px;
+  line-height: 40px;
+  box-shadow: none;
+}
+
+nav {
+  box-shadow: none;
+}
+
+li.active a, nav ul a:hover, a.active {
+  color: #40c4ff !important;
+}
+
+.nav-lang nav ul a:hover {
+  background-color: transparent !important;
+  color: #40c4ff !important;
+}
+
+nav ul a{
+  transition: 200ms;
+}

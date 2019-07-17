@@ -1,0 +1,17 @@
+i.fab:hover, i.far:hover {
+  color: #039be5 !important;
+}
+
+i.fab, i.far {
+  transition: 200ms;
+}
+
+i.fab:nth-child(2) {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+i.fab:nth-child(3) {
+  margin-left: 5px;
+  margin-right: 10px;
+}

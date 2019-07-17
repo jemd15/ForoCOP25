@@ -1,0 +1,16 @@
+.card-image img{
+    width: 100%;
+    height: 35vh;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.header .title{
+    position: absolute;
+    top: 40vh;
+    padding: 15px;
+}
+
+h5, p{
+    padding: 0 0.75rem;
+}
