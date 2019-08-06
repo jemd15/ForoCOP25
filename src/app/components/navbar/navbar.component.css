@@ -1,7 +1,7 @@
 .brand-logo {
   line-height: 1;
   position: relative;
-  top: -20px;
+  top: -15px;
   transition: 200ms;
 }
 
@@ -38,5 +38,11 @@ nav ul a{
 
 .navbar-fixed:not(.nav-lang){
   top: -2px;
+  height: 45px;
+  line-height: 45px;
 }
 
+.nav-lang{
+  height: 30px;
+  line-height: 30px;
+}

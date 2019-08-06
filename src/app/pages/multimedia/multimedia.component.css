@@ -38,3 +38,7 @@ img, .card{
 .card-image img{
   cursor: zoom-in;
 }
+
+iframe{
+  height: 60vh;
+}
