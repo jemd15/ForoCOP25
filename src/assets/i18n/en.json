@@ -4,7 +4,7 @@
     "whatIs": "What is the Forum?",
     "login": "Accreditation",
     "actionPlan": "Plan of Action",
-    "galery": "Gallery",
+    "multimedia": "Multimedia",
     "contact": "Contact",
     "language": "Language"
   },
@@ -39,9 +39,9 @@
     "title1": "Who can participate?",
     "paragraph1": "All social organizations of the elderly, young people, gender, human rights, diversities of all types, indigenous peoples, migrants, religious spirituality, trade unions, etc., as well as environmental organizations, are summoned to this instance. universities, small and medium-sized companies from all sectors, media, local governments, among other sectors.",
     "title2": "How to participate?",
-    "paragraph2": "Delegates from organizations and institutions can be accredited on the platform of the <strong>Civil Society Forum Cop 25 </strong> (<a routerLink='/accreditation'> Click Here </a>) will be held between December 01 and December 10, 2019, with the firm purpose of deliberating organized and democratically during those days and approving the Climate Action Plan of the Chilean Civil Society and the Declaration “Building the Future We Need”."
+    "paragraph2": "Delegates from organizations and institutions can be accredited on the platform of the <strong>Civil Society Forum Cop 25 </strong> will be held between December 01 and December 10, 2019, with the firm purpose of deliberating organized and democratically during those days and approving the Climate Action Plan of the Chilean Civil Society and the Declaration “Building the Future We Need”."
   },
-  "galery": {
+  "multimedia": {
     "title": "Gallery"
   },
   "contact": {

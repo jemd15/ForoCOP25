@@ -4,7 +4,7 @@
     "whatIs": "¿Qué es el Foro?",
     "login": "Acreditación",
     "actionPlan": "Plan de Acción",
-    "galery": "Galería",
+    "multimedia": "Multimedia",
     "contact": "Contacto",
     "language": "Idioma"
   },
@@ -39,9 +39,9 @@
     "title1": "¿Quiénes pueden participar?",
     "paragraph1": "A esta instancia son convocadas todas las organizaciones sociales de adultos mayores, jóvenes, de género, derechos humanos, diversidades de todos los tipos, pueblos originarios, migrantes, espiritualidad religiosa, sindicatos, etc., además de entidades ambientalistas, universidades, pequeñas y medianas empresas de todos los sectores, medios de comunicación, gobiernos locales, entre otros sectores.",
     "title2": "¿Cómo participar?",
-    "paragraph2": "Los delegados de las organizaciones e instituciones podrán acreditarse en la plataforma del <strong>Foro de la Sociedad Civil Cop 25</strong> (<a routerLink='/accreditation'>Click Aquí</a>) que se celebrará entre el 01 y el 10 de diciembre de 2019, con el firme propósito de deliberar organizada y democráticamente durante esos días y aprobar el Plan de Acción Climática de la Sociedad Civil Chilena y la Declaración “Construyendo el Futuro que Necesitamos”."
+    "paragraph2": "Los delegados de las organizaciones e instituciones podrán acreditarse en la plataforma del <strong>Foro de la Sociedad Civil Cop 25</strong> que se celebrará entre el 01 y el 10 de diciembre de 2019, con el firme propósito de deliberar organizada y democráticamente durante esos días y aprobar el Plan de Acción Climática de la Sociedad Civil Chilena y la Declaración “Construyendo el Futuro que Necesitamos”."
   },
-  "galery": {
+  "multimedia": {
     "title": "Galería"
   },
   "contact": {
