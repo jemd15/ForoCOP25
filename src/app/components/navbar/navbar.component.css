@@ -5,8 +5,12 @@
   transition: 200ms;
 }
 
+.nav-lang nav ul li a{
+  transform: scale(0.8);
+}
+
 .brand-logo:hover{
-  
+  transform: scale(1.1);
 }
 
 .nav-lang, .nav-lang nav {
