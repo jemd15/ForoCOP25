@@ -17,6 +17,7 @@ import { WhatIsComponent } from './pages/what-is/what-is.component';
 import { MultimediaComponent } from './pages/multimedia/multimedia.component';
 import { ContactPageComponent } from './pages/contact/contact.component';
 import { LoginComponent } from './pages/login/login.component';
+import { NewsComponent } from './pages/news/news.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { LoginComponent } from './pages/login/login.component';
     MultimediaComponent,
     ContactComponent,
     LoginComponent,
-    ContactPageComponent
+    ContactPageComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,

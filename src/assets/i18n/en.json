@@ -6,7 +6,8 @@
     "actionPlan": "Plan of Action",
     "multimedia": "Multimedia",
     "contact": "Contact",
-    "language": "Language"
+    "language": "Language",
+    "news": "News"
   },
   "more": "more",
   "home": {
@@ -52,5 +53,9 @@
       "text": "Stay up-to-date with the updates of the <strong>Cop 25 Civil Society Forum </strong> through your preferred social networks, you can follow us on several channels to be the first to know about our news."
     }
   },
-  "page404": "Sorry, the requested page does not exist !!"
+  "page404": "Sorry, the requested page does not exist !!",
+  "news": {
+    "more": "Last News",
+    "date": "Date"
+  }
 }

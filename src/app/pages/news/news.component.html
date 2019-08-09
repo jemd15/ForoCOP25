@@ -1,0 +1,57 @@
+<div class="container">
+  <div class="card-panel">
+    <nav class="transparent z-depth-0">
+      <div class="nav-wrapper">
+        <div class="col s12">
+          <a class="breadcrumb blue-text text-darken-4"><strong>{{ 'navbar.home' | translate }}</strong></a>
+          <a class="breadcrumb blue-text text-darken-4"><strong>{{ 'navbar.news' | translate }}</strong></a>
+        </div>
+      </div>
+    </nav>
+    <div class="row">
+      <h2 class="col s12 title blue-text text-darken-4 center"><strong>{{news[id].title}}</strong></h2>
+      <h5 class="col s12 center">{{news[id].fall}}</h5>
+      <img [src]="news[id].headerImg" class="responsive-img header-img col s12 center">
+      <p class="col s12"><i class="fas fa-calendar-day"></i> {{ 'news.date' | translate }}: {{news[id].date}}.</p>
+      <div class="col s12 share-links center">
+        <a href="https://www.facebook.com/Foro-Sociedad-Civil-COP25-Chile-403898970469633/" target="_blank" class="btn blue darken-4 col s1 offset-s5"><i class="white-text text-darken-4 fab fa-4x fa-facebook-f"></i></a>
+        <a href="https://twitter.com/forosociedadci1" target="_blank" class="btn blue col s1"><i class="white-text text-darken-4 fab fa-4x fa-twitter"></i></a>
+        <br>
+      </div>
+      <p class="col s12" [innerHTML]="news[id].content"></p>
+    </div>
+  </div>
+  <div class="row">
+    <h5 class="blue-text text-darken-4 col s12 center"><strong>{{ 'news.more' | translate}}</strong></h5>
+    <div class="col s12 m4">
+      <div class="card small hoverable" (click)="changeToNews(0)" routerLink="/news/0">
+        <div class="card-image">
+          <img [src]="news[0].headerImg">
+        </div>
+        <div class="card-content">
+          <span class="card-title blue-text text-darken-4"><strong>{{news[0].title}}</strong></span>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card small hoverable" (click)="changeToNews(1)" routerLink="/news/1">
+        <div class="card-image">
+          <img [src]="news[1].headerImg">
+        </div>
+        <div class="card-content">
+          <span class="card-title blue-text text-darken-4"><strong>{{news[1].title}}</strong></span>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card small hoverable" (click)="changeToNews(2)" routerLink="/news/2">
+        <div class="card-image">
+          <img [src]="news[2].headerImg">
+        </div>
+        <div class="card-content">
+          <span class="card-title blue-text text-darken-4"><strong>{{news[2].title}}</strong></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

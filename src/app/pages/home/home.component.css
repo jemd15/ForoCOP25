@@ -31,3 +31,16 @@
 .btn-more{
     margin-top: 8px;
 }
+
+.card-title{
+    font-size: 104%;
+    line-height: 1 !important;
+}
+
+.card{
+    cursor: pointer;
+}
+
+.card-image{
+    height: 16vh;
+}

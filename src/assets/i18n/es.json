@@ -6,7 +6,8 @@
     "actionPlan": "Plan de Acción",
     "multimedia": "Multimedia",
     "contact": "Contacto",
-    "language": "Idioma"
+    "language": "Idioma",
+    "news": "Noticias"
   },
   "more": "más",
   "home": {
@@ -52,5 +53,9 @@
       "text": "Manténgase al día de las actualizaciones del <strong>Foro de la Sociedad Civil Cop 25</strong> a través de sus redes sociales preferidas. Puede seguirnos en varios canales para ser el primero en conocer nuestras novedades."
     }
   },
-  "page404": "Lo sentimos, la página solicitada no existe!!"
+  "page404": "Lo sentimos, la página solicitada no existe!!",
+  "news": {
+    "more": "Últimas Noticias",
+    "date": "Fecha"
+  }
 }

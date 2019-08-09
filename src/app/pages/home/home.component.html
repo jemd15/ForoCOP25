@@ -35,50 +35,35 @@
       <div class="row">
         <div class="col s12">
           <h4 class="blue-text text-darken-4 left"><strong>{{ 'home.news' | translate }}</strong></h4>
-          <a class="btn btn-more primary-color right">{{ 'more' | translate }}</a>
+          <a class="btn btn-more primary-color right hide">{{ 'more' | translate }}</a>
         </div>
         <div class="col s12 m4">
-          <div class="card">
+          <div class="card small hoverable" routerLink="/news/0">
             <div class="card-image">
-              <img src="http://archives.materializecss.com/0.100.2/images/office.jpg">
-              <span class="card-title text-shadow">Card Title</span>
+              <img [src]="news[0].headerImg">
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
-                require little markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
+              <span class="card-title blue-text text-darken-4"><strong>{{news[0].title}}</strong></span>
             </div>
           </div>
         </div>
         <div class="col s12 m4">
-          <div class="card">
+          <div class="card small hoverable" routerLink="/news/1">
             <div class="card-image">
-              <img src="http://archives.materializecss.com/0.100.2/images/office.jpg">
-              <span class="card-title text-shadow">Card Title</span>
+              <img [src]="news[1].headerImg">
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
-                require little markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
+              <span class="card-title blue-text text-darken-4"><strong>{{news[1].title}}</strong></span>
             </div>
           </div>
         </div>
         <div class="col s12 m4">
-          <div class="card">
+          <div class="card small hoverable" routerLink="/news/2">
             <div class="card-image">
-              <img src="http://archives.materializecss.com/0.100.2/images/office.jpg">
-              <span class="card-title text-shadow">Card Title</span>
+              <img [src]="news[2].headerImg">
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
-                require little markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
+              <span class="card-title blue-text text-darken-4"><strong>{{news[2].title}}</strong></span>
             </div>
           </div>
         </div>
@@ -88,50 +73,26 @@
       <div class="row">
         <div class="col s12">
           <h4 class="blue-text text-darken-4 left"><strong>{{ 'home.activities' | translate }}</strong></h4>
-          <a class="btn btn-more primary-color right">{{ 'more' | translate }}</a>
+          <a class="btn btn-more primary-color right hide">{{ 'more' | translate }}</a>
         </div>
         <div class="col s12 m4">
-          <div class="card">
+          <div class="card hoverable">
             <div class="card-image">
               <img src="http://archives.materializecss.com/0.100.2/images/office.jpg">
-              <span class="card-title text-shadow">Card Title</span>
-            </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
-                require little markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
             </div>
           </div>
         </div>
         <div class="col s12 m4">
-          <div class="card">
+          <div class="card hoverable">
             <div class="card-image">
               <img src="http://archives.materializecss.com/0.100.2/images/office.jpg">
-              <span class="card-title text-shadow">Card Title</span>
-            </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
-                require little markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
             </div>
           </div>
         </div>
         <div class="col s12 m4">
-          <div class="card">
+          <div class="card hoverable">
             <div class="card-image">
               <img src="http://archives.materializecss.com/0.100.2/images/office.jpg">
-              <span class="card-title text-shadow">Card Title</span>
-            </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
-                require little markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
             </div>
           </div>
         </div>

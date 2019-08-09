@@ -6,6 +6,7 @@ import { WhatIsComponent } from './pages/what-is/what-is.component';
 import { MultimediaComponent } from './pages/multimedia/multimedia.component';
 import { ContactPageComponent } from './pages/contact/contact.component';
 import { LoginComponent } from './pages/login/login.component';
+import { NewsComponent } from './pages/news/news.component';
 
 const routes: Routes = [
   { path: '404-not-found', component: Page404Component, pathMatch: 'full' },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'multimedia', component: MultimediaComponent, pathMatch: 'full' },
   { path: 'contact', component: ContactPageComponent, pathMatch: 'full' },
   { path: 'accreditation', component: LoginComponent, pathMatch: 'full' },
+  { path: 'news/:newsId', component: NewsComponent, pathMatch: 'full' },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', redirectTo: '/404-not-found', pathMatch: 'full' }
 ];
