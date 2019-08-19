@@ -44,3 +44,12 @@
 .card-image{
     height: 16vh;
 }
+
+aside div a img{
+    transition: 200ms;
+}
+
+aside div a img:hover{
+    transition: 200ms;
+    transform: scale(1.1);
+}
