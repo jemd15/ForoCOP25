@@ -33,7 +33,7 @@
 }
 
 .card-title{
-    font-size: 104%;
+    font-size: 130%;
     line-height: 1 !important;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .card-image{
-    height: 16vh;
+    height: 20vh;
 }
 
 aside div a img{
@@ -52,4 +52,8 @@ aside div a img{
 aside div a img:hover{
     transition: 200ms;
     transform: scale(1.1);
+}
+
+iframe.facebook{
+    transform: scale(0.9);
 }
