@@ -1,3 +1,10 @@
+img.logo{
+  width: auto;
+  height: 65px;
+  position: inherit;
+  top: -15px;
+}
+
 .brand-logo {
   line-height: 1;
   position: relative;
