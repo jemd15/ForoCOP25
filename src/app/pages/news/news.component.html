@@ -19,8 +19,19 @@
         <br>
       </div>
       <p class="col s12" [innerHTML]="news[id].content"></p>
+      <div class="row"></div>
+      <div *ngFor="let img of news[id].imgs">
+        <img [src]="img" (click)="openModal(img)" class="responsive-img col m4">
+      </div>
     </div>
   </div>
+
+<!-- Modal Structure -->
+<div (click)="closeModal()" class="modal center transparent z-depth-0" materialize="modal" [materializeParams]="[{dismissible: true}]" [materializeActions]="modalActions">
+  <img [src]="img" class="responsive-img">
+</div>
+
+  <!-- Sección Noticias -->
   <div class="row">
     <h5 class="blue-text text-darken-4 col s12 center"><strong>{{ 'news.more' | translate}}</strong></h5>
     <div class="col s12 m4">
@@ -43,7 +54,7 @@
         </div>
       </div>
     </div>
-    <div class="col s12 m4">
+    <div class="col s12 m4 hide">
       <div class="card small hoverable" (click)="changeToNews(2)" routerLink="/news/2">
         <div class="card-image">
           <img [src]="news[2].headerImg">

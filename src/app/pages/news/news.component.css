@@ -1,20 +1,48 @@
-.title{
-    margin-bottom: 0;
+.title {
+  margin-bottom: 0;
 }
 
-.header-img{
-    object-fit: cover;
-    height: 40vh;
+.header-img {
+  object-fit: cover;
+  height: 40vh;
 }
 
-.card-title{
-    font-size: 120%;
+.card-title {
+  font-size: 130%;
+  line-height: 1 !important;
 }
 
-.card{
-    cursor: pointer;
+.card {
+  cursor: pointer;
 }
 
-.card-img{
-    object-fit: cover;
+.card-img {
+  object-fit: cover;
+}
+
+.modal{
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+
+.modal img{
+  width: auto;
+  height: 80vh;
+  cursor: zoom-out;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.responsive-img{
+  cursor: pointer;
+  height: 30vh;
+  padding-bottom: 10px;
+  object-fit: cover;
+  object-position: center;
+  transition: 200ms;
+}
+
+.responsive-img:not(.header-img):hover{
+  transform: scale(1.1);
 }
