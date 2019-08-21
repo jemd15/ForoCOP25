@@ -10,7 +10,9 @@ export class HomeComponent implements OnInit {
 
   carouselActions = new EventEmitter<string|MaterializeAction>();
   modalActions = new EventEmitter<string|MaterializeAction>();
-  img;
+  modal2Actions = new EventEmitter<string|MaterializeAction>();
+  img1;
+  img2;
   news = [
     {
       title: 'Organizaciones de la sociedad civil hacen observaciones y advierten falencias del proceso de...',
@@ -38,11 +40,20 @@ export class HomeComponent implements OnInit {
   }
 
   openModal(img: string) {
-    this.img = img;
+    this.img1 = img;
     this.modalActions.emit({action: 'modal', params: ['open']});
   }
   closeModal() {
     this.modalActions.emit({action: 'modal', params: ['close']});
+  }
+
+  openModal2(img1: string, img2: string) {
+    this.img1 = img1;
+    this.img2 = img2;
+    this.modal2Actions.emit({action: 'modal', params: ['open']});
+  }
+  closeModal2() {
+    this.modal2Actions.emit({action: 'modal', params: ['close']});
   }
 
 

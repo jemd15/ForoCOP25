@@ -89,10 +89,10 @@
             </div>
           </div>
         </div>
-        <div class="col s12 m4 small hide">
-          <div class="card hoverable">
+        <div class="col s12 m6 small">
+          <div class="card hoverable" (click)="openModal2('../../../assets/imgs/activities/conversatorio valpo 1.png', '../../../assets/imgs/activities/conversatorio valpo 2.png')">
             <div class="card-image">
-              <img src="http://archives.materializecss.com/0.100.2/images/office.jpg">
+              <img src="../../../assets/imgs/activities/conversatorio valpo 1.png">
             </div>
           </div>
         </div>
@@ -115,5 +115,13 @@
 
 <!-- Modal Structure -->
 <div (click)="closeModal()" class="modal center transparent z-depth-0" materialize="modal" [materializeParams]="[{dismissible: true}]" [materializeActions]="modalActions">
-  <img [src]="img" class="responsive-img">
+  <img [src]="img1" class="responsive-img">
+</div>
+
+<!-- Modal Structure -->
+<div (click)="closeModal2()" class="modal center transparent z-depth-0" materialize="modal" [materializeParams]="[{dismissible: true}]" [materializeActions]="modal2Actions">
+  <img [src]="img1" class="responsive-img">
+  <img [src]="img2" class="responsive-img">
+  <br>
+  <a href="https://www.pucv.cl/pucv/vinculacion-con-el-medio/formulario/conversatorio-que-debiera-comprometer-chile-en-el-acuerdo-global-de/2019-08-09/102950.html" target="_blank" class="btn primary-color"><strong>link de inscripción</strong></a>
 </div>
