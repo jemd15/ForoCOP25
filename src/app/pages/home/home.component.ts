@@ -9,9 +9,11 @@ import { MaterializeAction } from 'angular2-materialize';
 export class HomeComponent implements OnInit {
 
   carouselActions = new EventEmitter<string|MaterializeAction>();
+  modalActions = new EventEmitter<string|MaterializeAction>();
+  img;
   news = [
     {
-      title: 'Organizaciones de la sociedad civil hacen observaciones y advierten falencias del proceso de...', 
+      title: 'Organizaciones de la sociedad civil hacen observaciones y advierten falencias del proceso de...',
       fall: '',
       headerImg: 'https://gallery.mailchimp.com/52a45e4cb5f30f4bf2c6bdedb/images/ffb0dc1c-b03e-4711-883e-83bb7545e217.png',
       date: ''
@@ -28,11 +30,19 @@ export class HomeComponent implements OnInit {
       headerImg: '',
       date: ''
     }
-  ]
+  ];
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  openModal(img: string) {
+    this.img = img;
+    this.modalActions.emit({action: 'modal', params: ['open']});
+  }
+  closeModal() {
+    this.modalActions.emit({action: 'modal', params: ['close']});
   }
 
 

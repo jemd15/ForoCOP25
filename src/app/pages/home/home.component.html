@@ -70,26 +70,26 @@
       </div>
 
       <!-- Actividades -->
-      <div class="row hide">
+      <div class="row">
         <div class="col s12">
           <h4 class="blue-text text-darken-4 left"><strong>{{ 'home.activities' | translate }}</strong></h4>
           <a class="btn btn-more primary-color right hide">{{ 'more' | translate }}</a>
         </div>
-        <div class="col s12 m4">
-          <div class="card hoverable">
+        <div class="col s12 m6 small">
+          <div class="card hoverable" (click)="openModal('../../../assets/imgs/activities/INVITACION asamblea de base 31 agosto  PRE COP 25.jpg')">
             <div class="card-image">
-              <img src="http://archives.materializecss.com/0.100.2/images/office.jpg">
+              <img src="../../../assets/imgs/activities/INVITACION asamblea de base 31 agosto  PRE COP 25.jpg">
             </div>
           </div>
         </div>
-        <div class="col s12 m4">
-          <div class="card hoverable">
+        <div class="col s12 m6 small">
+          <div class="card hoverable" (click)="openModal('../../../assets/imgs/activities/Invitaciòn Ampliado FORO.jpg')">
             <div class="card-image">
-              <img src="http://archives.materializecss.com/0.100.2/images/office.jpg">
+              <img src="../../../assets/imgs/activities/Invitaciòn Ampliado FORO.jpg">
             </div>
           </div>
         </div>
-        <div class="col s12 m4">
+        <div class="col s12 m4 small hide">
           <div class="card hoverable">
             <div class="card-image">
               <img src="http://archives.materializecss.com/0.100.2/images/office.jpg">
@@ -111,4 +111,9 @@
       </div>
     </aside>
   </div>
+</div>
+
+<!-- Modal Structure -->
+<div (click)="closeModal()" class="modal center transparent z-depth-0" materialize="modal" [materializeParams]="[{dismissible: true}]" [materializeActions]="modalActions">
+  <img [src]="img" class="responsive-img">
 </div>
