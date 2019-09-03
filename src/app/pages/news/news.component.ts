@@ -22,6 +22,11 @@ export class NewsComponent implements OnInit {
       date: '',
       imgs: [
         '../../../assets/imgs/news/IMG_0271.JPG',
+        '../../../assets/imgs/news/IMG_0272.JPG',
+        '../../../assets/imgs/news/IMG_0278.JPG',
+        '../../../assets/imgs/news/IMG_0279.JPG',
+        '../../../assets/imgs/news/IMG_0281.JPG',
+        '../../../assets/imgs/news/IMG_0283.JPG',
       ]
     },
     {
