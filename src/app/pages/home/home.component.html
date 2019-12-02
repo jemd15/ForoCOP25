@@ -57,13 +57,23 @@
             </div>
           </div>
         </div>
-        <div class="col s12 m4 hide">
+        <div class="col s12 m6">
           <div class="card small hoverable" routerLink="/news/2">
             <div class="card-image">
               <img [src]="news[2].headerImg">
             </div>
             <div class="card-content">
               <span class="card-title blue-text text-darken-4"><strong>{{news[2].title | titlecase}}</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card small hoverable" routerLink="/news/3">
+            <div class="card-image">
+              <img [src]="news[3].headerImg">
+            </div>
+            <div class="card-content">
+              <span class="card-title blue-text text-darken-4"><strong>{{news[3].title | titlecase}}</strong></span>
             </div>
           </div>
         </div>
@@ -76,21 +86,31 @@
           <a class="btn btn-more primary-color right hide">{{ 'more' | translate }}</a>
         </div>
         <div class="col s12 m6 small">
-          <div class="card hoverable" (click)="openModal('../../../assets/imgs/activities/INVITACION asamblea de base 31 agosto  PRE COP 25.jpg')">
+          <div class="card hoverable" (click)="openModal3('../../../assets/imgs/activities/dialogos.jpg')">
+            <div class="card-image">
+              <img src="../../../assets/imgs/activities/dialogos.jpg">
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 small">
+          <div class="card hoverable"
+            (click)="openModal('../../../assets/imgs/activities/INVITACION asamblea de base 31 agosto  PRE COP 25.jpg')">
             <div class="card-image">
               <img src="../../../assets/imgs/activities/INVITACION asamblea de base 31 agosto  PRE COP 25.jpg">
             </div>
           </div>
         </div>
         <div class="col s12 m6 small">
-          <div class="card hoverable" (click)="openModal('../../../assets/imgs/activities/Invitaciòn Ampliado FORO.jpg')">
+          <div class="card hoverable"
+            (click)="openModal('../../../assets/imgs/activities/Invitaciòn Ampliado FORO.jpg')">
             <div class="card-image">
               <img src="../../../assets/imgs/activities/Invitaciòn Ampliado FORO.jpg">
             </div>
           </div>
         </div>
         <div class="col s12 m6 small">
-          <div class="card hoverable" (click)="openModal2('../../../assets/imgs/activities/conversatorio valpo 1.png', '../../../assets/imgs/activities/conversatorio valpo 2.png')">
+          <div class="card hoverable"
+            (click)="openModal2('../../../assets/imgs/activities/conversatorio valpo 1.png', '../../../assets/imgs/activities/conversatorio valpo 2.png')">
             <div class="card-image">
               <img src="../../../assets/imgs/activities/conversatorio valpo 1.png">
             </div>
@@ -101,27 +121,55 @@
     <aside class="col m4">
       <div class="card-panel white no-padding">
         <!-- Feed de Facebook -->
-        <iframe class="facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FForo-Sociedad-Civil-COP25-Chile-403898970469633%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=154672992135310" width="100%" height="500" style="border:none;overflow:hidden;margin:0 auto;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>  
-        
+        <iframe class="facebook"
+          src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FForo-Sociedad-Civil-COP25-Chile-403898970469633%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=154672992135310"
+          width="100%" height="500" style="border:none;overflow:hidden;margin:0 auto;" scrolling="no" frameborder="0"
+          allowTransparency="true" allow="encrypted-media"></iframe>
+
       </div>
       <div class="card-panel white center">
         <h5 class="blue-text text-darken-4 left-align"><strong>Otros espacios de la Sociedad Civil</strong></h5>
-        <a href="https://cumbredelospueblos2019.org/" target="_blank"><img src="../../../assets/imgs/logos-links-asociados/logo-cumbre-de-los-pueblos.png" class="responsive-img"></a>
-        <a href="https://www.porlaaccionclimatica.cl" target="_blank"><img src="../../../assets/imgs/logos-links-asociados/logo-scac.png" class="responsive-img"></a>
+        <a href="https://cumbredelospueblos2019.org/" target="_blank"><img
+            src="../../../assets/imgs/logos-links-asociados/logo-cumbre-de-los-pueblos.png" class="responsive-img"></a>
+        <a href="https://www.porlaaccionclimatica.cl" target="_blank"><img
+            src="../../../assets/imgs/logos-links-asociados/logo-scac.png" class="responsive-img"></a>
       </div>
     </aside>
   </div>
 </div>
 
 <!-- Modal Structure -->
-<div (click)="closeModal()" class="modal center transparent z-depth-0" materialize="modal" [materializeParams]="[{dismissible: true}]" [materializeActions]="modalActions">
+<div (click)="closeModal()" class="modal center transparent z-depth-0" materialize="modal"
+  [materializeParams]="[{dismissible: true}]" [materializeActions]="modalActions">
   <img [src]="img1" class="responsive-img">
 </div>
 
 <!-- Modal Structure -->
-<div (click)="closeModal2()" class="modal center transparent z-depth-0" materialize="modal" [materializeParams]="[{dismissible: true}]" [materializeActions]="modal2Actions">
+<div (click)="closeModal2()" class="modal center transparent z-depth-0" materialize="modal"
+  [materializeParams]="[{dismissible: true}]" [materializeActions]="modal2Actions">
   <img [src]="img1" class="responsive-img">
   <img [src]="img2" class="responsive-img">
   <br>
-  <a href="https://www.pucv.cl/pucv/vinculacion-con-el-medio/formulario/conversatorio-que-debiera-comprometer-chile-en-el-acuerdo-global-de/2019-08-09/102950.html" target="_blank" class="btn primary-color"><strong>link de inscripción</strong></a>
+  <a href="https://www.pucv.cl/pucv/vinculacion-con-el-medio/formulario/conversatorio-que-debiera-comprometer-chile-en-el-acuerdo-global-de/2019-08-09/102950.html"
+    target="_blank" class="btn primary-color"><strong>link de inscripción</strong></a>
+</div>
+
+<!-- Modal Structure -->
+<div (click)="closeModal3()" class="modal transparent z-depth-0" materialize="modal"
+  [materializeParams]="[{dismissible: true}]" [materializeActions]="modal3Actions"
+  style="width: 55% !important; max-height: 100%;">
+  <div class="card">
+    <div class="card-image" style="height: auto !important;">
+      <img [src]="img1" class="responsive-img" style="width: 100%;">
+    </div>
+    <div class="card-content">
+      <p>Este jueves 5 de diciembre se desarrollará en el Canelo de Nos los "Diálogos de la Sociedad Civil sobre
+        Cambio Climático, Experiencias Internacionales y Territoriales", donde el Foro Paralelo de la Sociedad Civil
+        COP25 sancionará su plan de acción en respuesta al Cambio Climático, el que aborda 11 ejes fundamentales para
+        ir en su lucha, que y fue construido en conjunto con la comunidad en general. Al finalizar la jornada, se
+        realizará un cabildo ecosocial, en el cual discutiremos las temáticas ambientales que deben estar presentes en
+        la discusión sobre la nueva constitución. <br><br><strong>Es evento es gratuito y no requiere inscripción
+          previa. ¡Te esperamos!</strong></p>
+    </div>
+  </div>
 </div>

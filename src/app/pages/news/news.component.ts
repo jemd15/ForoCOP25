@@ -15,6 +15,22 @@ export class NewsComponent implements OnInit {
   img: string
   news = [
     {
+      title: 'PLAN DE ACCIÓN ANTE EL CAMBIO CLIMÁTICO DEL FORO PARALELO SOCIEDAD CIVIL',
+      fall: '',
+      headerImg: '../../../assets/imgs/logo-foro.jpg',
+      content: 'Con ocasión de la negativa del gobierno a realizar la COP 25 en Chile, <strong>declaramos nuestra disposición para realizar de todas formas un encuentro de la sociedad civil</strong> para instalar un espacio de carácter permanente y proyectable a las siguientes COP, para lo cual presentamos el siguiente PLAN DE ACCION. <br><br> <a href="../../../assets/docs/plan de accion.pdf" class="waves-effect waves-light btn blue darken-4" target="_blank">plan de accion.pdf<i class="material-icons right">insert_drive_file</i></a><br><br><strong>Los aportes al presente PLAN de ACCION se recibirán hasta el 5 de diciembre</strong>. Este documento fue consultado y enriquecido con los aportes de las organizaciones sociales y territoriales que participaron en la asamblea del Foro de la Sociedad Civil COP 25, realizada el 11 de octubre. La versión final será sancionada en el “Diálogo de la Sociedad Civil sobre Cambio Climático, Experiencias Internacionales y Territoriales”, que se desarrollará el 5 de diciembre en el Canelo de Nos y será presentada en la COP 25 que se desarrollará en Madrid.',
+      date: '01 de diciembre de 2019',
+      imgs: []
+    },
+    {
+      title: 'DECLARACIÓN PÚBLICA DEL FORO PARALELO SOCIEDAD CIVIL',
+      fall: '',
+      headerImg: '../../../assets/imgs/logo-foro.jpg',
+      content: 'El Foro Paralelo Sociedad Civil, espacio de sociedad civil autoconvocado en el marco de la COP 25 para promover y articular el trabajo y acciones de organizaciones sociales y territoriales, sindicatos, gremios y universidades en torno al cambio climático y la justicia ambiental de forma permanente, expresa su <strong>RECHAZO</strong> a la decisión del gobierno del Presidente Sebastián Piñera de no realizar la COP 25 en Chile en base a los siguientes motivos: <br><br>La justificación esgrimida para adoptar esta medida, aludiendo a que la “primera preocupación y prioridad como gobierno es concentrarse absolutamente en restablecer plenamente el orden público, la seguridad ciudadana y la paz social”, desvía la atención respecto de la responsabilidad política del gobierno en la forma de abordar el actual contexto que se vive en Chile y, por el contrario, la desplaza a las legítimas movilizaciones que se suceden a lo largo del país. <br><br>El orden público es la función esencial que corresponde a todo Estado. Un estado que se reconoce como incapaz de celebrar una conferencia tan relevante para la ciudadanía ha fracasado como tal. La responsabilidad no puede transmitirse a la ciudadanía que ha colaborado incansablemente en este proceso de forma responsable y organizada. Nos parece que la intención del gobierno es utilizar la contingencia para mostrar como culpables de su propia decisión intencionada a la sociedad civil y la ciudadanía. <br><br>La COP 25 ha permitido articular a la sociedad civil de manera profunda y organizada. Prueba de lo anterior es que el anteproyecto de ley marco de cambio climático es la norma que más observaciones ha recibido en procesos de consulta pública. Este proceso evidenció además una transversalidad de la sociedad que participa, proveniente no solo de ONG o grupos ambientales, sino que también de municipalidades, asociaciones gremiales, organizaciones funcionales y territoriales, universidades, así como ciudadanas y ciudadanos en forma individual. Asimismo, la generación de diversos espacios de sociedad civil paralelos a la COP, evidencia un compromiso, cohesión y fortalecimiento social ante una problemática que se reconoce como prioritaria, dada la tremenda vulnerabilidad de nuestro país a los impactos del cambio climático. <br><br>La celebración de la COP 25 en Chile permitía visibilizar en el discurso público, político y del gobierno algunas de las temáticas que durante este año hemos reconocido como prioritarias para el país. El acuerdo de ESCAZÚ, el TPP 11, la ley marco de cambio climático, las necesidades de adaptación, el fin a las zonas de sacrificio, la urgente reforma al Código de Aguas y a la institucionalidad hídrica en Chile, entre muchas otras demandas ciudadanas cuya urgencia pareciera ser ignorada por el gobierno. Por eso seguiremos trabajando por mantener la presión sobre temas que son esenciales a este momento de reflexión y demanda ciudadana, reconociendo que <strong>no existe justicia social sin justicia ambiental</strong>. <br><br>Sumado a lo anterior, el cambio de lugar para la realización de la COP 25 con tan escasa anticipación al evento dejará sin posibilidades de participación a gran parte de la sociedad civil internacional. Representantes de pueblos originarios, de ONG ambientales, organizaciones y movimientos sociales, y grupos de interés que ya se habían programado para la COP en Chile probablemente no podrán adaptarse oportunamente a su realización en otro lugar. Ello debilita la fuerza que podría alcanzar esta COP, esencial para la implementación del Acuerdo de Paris, dado que es la última antes de su entrada en vigencia. Anticipamos, por lo mismo, que será una COP más débil en las negociaciones globales. <br><br>Dicho lo anterior, cobra mayor fuerza sostener los espacios que autónomamente se han levantado desde sociedad civil. Una gran cumbre que se sume a los cabildos hoy que se registran en todo el país, de convocatoria amplia, democrática y participativa. Para que se expresen, discutan y manifiesten las distintas posiciones, demandas, propuestas y alternativas que surgen desde este espacio social, para aportar a los procesos de transformación de Chile y trasladar nuestras posturas a instancias de toma de decisiones en lo nacional e internacional. <br><br>En esta línea, como Foro Paralelo Sociedad Civil convocamos a los distintos actores sociales y territoriales a un <strong>Diálogo político, social y ambiental</strong> este próximo martes 08 de noviembre, a partir de las 11:00 horas, en el Canelo de Nos.',
+      date: '31 de octubre de 2019',
+      imgs: []
+    },
+    {
       title: 'Organizaciones de la sociedad civil hacen observaciones y advierten falencias del proceso de consulta ciudadana del Anteproyecto de Ley Marco de Cambio Climático',
       fall: '',
       headerImg: 'https://gallery.mailchimp.com/52a45e4cb5f30f4bf2c6bdedb/images/ffb0dc1c-b03e-4711-883e-83bb7545e217.png',
@@ -43,20 +59,6 @@ export class NewsComponent implements OnInit {
         '../../../assets/imgs/news/Paulina Acevedo Observatorio Ciudadano.JPG',
         '../../../assets/imgs/news/Presentación Alejandro Reyes, Foro sociedad civil cop25.JPG',
         '../../../assets/imgs/news/Ximena Salinas Presidenta CODEFF.JPG'
-      ]
-    },
-    {
-      title: '',
-      fall: '',
-      headerImg: '',
-      content: '',
-      date: '',
-      imgs: [
-        'http://lorempixel.com/400/200',
-        'http://lorempixel.com/400/200',
-        'http://lorempixel.com/400/200',
-        'http://lorempixel.com/400/200',
-        'http://lorempixel.com/400/200'
       ]
     }
   ]

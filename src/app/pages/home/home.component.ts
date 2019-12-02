@@ -11,9 +11,24 @@ export class HomeComponent implements OnInit {
   carouselActions = new EventEmitter<string|MaterializeAction>();
   modalActions = new EventEmitter<string|MaterializeAction>();
   modal2Actions = new EventEmitter<string|MaterializeAction>();
+  modal3Actions = new EventEmitter<string|MaterializeAction>();
   img1;
   img2;
   news = [
+    {
+      title: 'PLAN DE ACCIÓN ANTE EL CAMBIO CLIMÁTICO DEL FORO PARALELO SOCIEDAD CIVIL',
+      fall: '',
+      headerImg: '../../../assets/imgs/logo-foro.jpg',
+      content: '',
+      date: '01 de diciembre de 2019',
+      imgs: []
+    },
+    {
+      title: 'DECLARACIÓN PÚBLICA DEL FORO PARALELO SOCIEDAD CIVIL',
+      fall: '',
+      headerImg: '../../../assets/imgs/logo-foro.jpg',
+      date: ''
+    },
     {
       title: 'Organizaciones de la sociedad civil hacen observaciones y advierten falencias del proceso de...',
       fall: '',
@@ -25,12 +40,6 @@ export class HomeComponent implements OnInit {
       fall: '',
       headerImg: 'https://www.codeff.cl/wp-content/uploads/2019/07/dsc05269-min.jpg',
       date: '04-07-2019'
-    },
-    {
-      title: '',
-      fall: '',
-      headerImg: '',
-      date: ''
     }
   ];
 
@@ -43,6 +52,7 @@ export class HomeComponent implements OnInit {
     this.img1 = img;
     this.modalActions.emit({action: 'modal', params: ['open']});
   }
+
   closeModal() {
     this.modalActions.emit({action: 'modal', params: ['close']});
   }
@@ -52,8 +62,18 @@ export class HomeComponent implements OnInit {
     this.img2 = img2;
     this.modal2Actions.emit({action: 'modal', params: ['open']});
   }
+
   closeModal2() {
     this.modal2Actions.emit({action: 'modal', params: ['close']});
+  }
+
+  openModal3(img: string) {
+    this.img1 = img;
+    this.modal3Actions.emit({action: 'modal', params: ['open']});
+  }
+
+  closeModal3() {
+    this.modal3Actions.emit({action: 'modal', params: ['close']});
   }
 
 
